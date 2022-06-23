@@ -1,0 +1,8 @@
+const person ={
+    name:'abisha',
+    logThis() {
+        console.log(this);
+     }
+}
+person.logThis(); // will return person object
+const showlog = person.logThis.bind

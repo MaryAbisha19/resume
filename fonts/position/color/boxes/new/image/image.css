@@ -1,0 +1,6 @@
+/* Bottom left text */
+.bottom-left {
+    position: fixed;
+    bottom: 8px;
+    left: 16px;
+}
