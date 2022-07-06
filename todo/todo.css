@@ -1,0 +1,12 @@
+.todo-completed{
+    task:line-through
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+div{
+    position: relative;
+    background-color: darksalmon;
+}

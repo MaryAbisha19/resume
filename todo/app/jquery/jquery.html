@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+
+</head>
+<body>
+    <h1>Heading</h1>
+    <form>
+        <input type="text"
+        placeholder="Enter Age"/>
+        <input type="submit"/>
+    </form>
+    
+    
+    <!-- <form action="form">
+        <label for="fname">uername</label><br>
+        <input type="text"><br>
+        <label for="lname">password</label><br>
+        <input type="text"><br><br>
+        <input type="submit" value="submit">
+    </form> -->
+
+
+    <!-- <ul id="list">
+    <li>18</li>
+    <li>21</li>
+    <li>13</li>
+    <li>19</li>
+    </ul>
+    <p>Total: 
+    </p> -->
+    <!-- <script>
+         count
+           for(let i=0; i<a; i++){
+            var list = $("#list li").eq(i);
+            $(document).ready(function(){
+           var a= $("#list li").length;
+           console.log(a)
+           
+
+           }
+
+            
+        })
+
+    </script> -->
+    
+
+    
+    
+     <script>
+    //     $("document").ready(function(){
+    //         var age1 = $("#list li").eq(0);
+    //         var age2 = $("#list li").eq(1);
+    //         if (age1.text() <= 18){
+    // age1.text("not eligible to vote")   
+    //         }
+    //         if(age2.text( )> 18){
+    //             age2.text("eligible to vote");
+    //         }
+            
+    //     });
+    
+    // <script>
+    //     $(window).resize(function(){
+    //         var a = $("#first p").text();
+           
+    //             console.log("a");
+
+    //         }));
+    //     })
+    //     </script>
+    <script>
+        $(document).ready(function(){
+            $("form").submit(function(event){
+                var a=$("input[type=text]").val();
+                if (a==0) {
+                    alert("please Enter the age");
+                 }
+                 else{
+                    console.log("form submitted")
+                }
+                
+                
+
+
+            
+            event.preventDefault();
+            
+        });
+    })
+    
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+
+<html>
+
+    
+
+    <head>
+
+        <title>To-Do List</title>
+
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="app.css">
+
+    </head>
+
+    
+
+    <body>
+
+        <div class="container">
+
+            <h1>To-do list</h1>
+
+            
+
+            <div class="add-elements">
+
+                <input id="add" type="text" placeholder="add an element">
+                <input id="date" type="datetime-local">
+
+                <button id="btn">Add</button>
+                <button class="delete">Delete</button>
+                
+
+            </div>
+
+            
+
+            <div class="element-list">
+
+                <ul id="list">
+                    <input type="checkbox" id="blue"> 
+
+                    <li>dress shopping</li>
+                    <input type="checkbox" id="blue">
+                    <li>to complete task</li>
+                    <input type="checkbox" id="blue">
+
+
+                    <li>beauty parlour</li>
+
+                </ul>
+
+            </div>
+
+            
+
+        </div>
+        
+  <script>
+    let blue = document.getElementById("blue");
+    blue.checked = true;
+    
+  </script>
+
+        
+
+        <script src="app.js"></script>
+
+    </body>
+
+    
+
+</html>
+
